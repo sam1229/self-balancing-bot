@@ -1,7 +1,7 @@
 // Arduino Wire library is required if I2Cdev I2CDEV_ARDUINO_WIRE implementation #include "Wire.h"
 #include "I2Cdev.h"
 #include "MPU6050.h"     // class default I2C address is 0x68 
-#include <PID_v1.h>
+
 MPU6050 accelgyroIC1(0x68);  // Here onwards it is different in state-space method
 byte countS = 0;                        //05
 int recOmegaI[10];                  
