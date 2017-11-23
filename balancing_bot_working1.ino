@@ -1,4 +1,5 @@
-// Arduino Wire library is required if I2Cdev I2CDEV_ARDUINO_WIRE implementation #include "Wire.h"
+// Arduino Wire library is required if I2Cdev I2CDEV_ARDUINO_WIRE implementation 
+#include "Wire.h"
 #include "I2Cdev.h"
 #include "MPU6050.h"     // class default I2C address is 0x68 
 
