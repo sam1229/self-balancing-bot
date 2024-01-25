@@ -3,6 +3,9 @@
 #include "I2Cdev.h"
 #include "MPU6050.h"     // class default I2C address is 0x68 
 
+// my name is sameeran
+// I want to change this file
+
 MPU6050 accelgyroIC1(0x68);  // Here onwards it is different in state-space method
 byte countS = 0;                        //05
 int recOmegaI[10];                  
